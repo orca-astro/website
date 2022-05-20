@@ -2,3 +2,5 @@ site_name: The Open-source Research Community in Astronomy (ORCA)
 
 theme:
   name: material
+  logo: assets/images/orca-logo-circle.png
+  favicon: assets/images/favicon.png
