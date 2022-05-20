@@ -1,6 +1,22 @@
-    - name: Deploy
-      if: github.ref == 'refs/heads/main'
-      uses: JamesIves/github-pages-deploy-action@4.1.5
-      with:
-        branch: gh-pages # The branch the action should deploy to.
-        folder: docs/_build/html # The folder the action should deploy.
+name: ci 
+
+
+on:
+  push:
+    branches:
+      - master 
+
+
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+
+
+      - run: mkdocs gh-deploy --force
