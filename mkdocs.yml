@@ -1,6 +1,26 @@
 site_name: The Open-source Research Community in Astronomy (ORCA)
 
+nav: 
+  - Home: index.md
+  - Conferences & Workshops: workshops.md
+  - Getting Involved:
+    - ORCA Activities: activities.md
+    - OSS Software Projects in Astronomy: projects.md
+  - Tips and Tricks:
+    - Best Practices: bestpractice.md
+    - Tools We Like: tools.md
+  - FAQs: FAQs.md
+  
 theme:
   name: material
   logo: assets/images/orca-logo-circle.png
   favicon: assets/images/favicon.png
+  features:
+     navigation.indexes
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
