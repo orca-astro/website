@@ -8,4 +8,4 @@ ORCA was born in May 2022 at a workshop at the Flatiron Institute in New York Ci
 
 ## How can I get involved? 
 
-We have an [open slack channel](https://join.slack.com/t/astronomicals-nhs1311/shared_invite/zt-19gf6sbas-MQpgqHcG3Kgqvu90blp1UQ), and we welcome you to join the conversation! Feel free to also check out the pages on the left to learn more about our current activities.
+We have a slack channel, and we welcome you to join the conversation! Please reach out to [who?] if you'd like to be added. Feel free to also check out the pages on the left to learn more about our current activities.
